@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #f0f0f0; 
+}
+
+.CalcContainer {
+  width: 600px; 
+  height: 700px; 
+  border: 5px solid #333; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.DispContainer {
+  padding: 10px;
+  border: 5px solid yellow; 
+  height: 80px; 
+  background-color: #585c64; 
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+  border-radius: 8px;
+}
+
+.Display {
+  font-size: 2.5em; 
+  text-align: right;
+  line-height: 1.5em;
+  width: 100%; 
+  color: white; 
+}
+
+.ButtonContainer {
+  border: 5px solid orange; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 5px; 
+  padding: 10px;
+}
+
+.ButtonContainer > button {
+  font-size: 1.5em;
+  background-color: yellow; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 20px; 
+  border: 2px solid #cccccc; 
+  border-radius: 5px; 
+}
+
+.ButtonContainer > button:hover {
+  background-color: orange; 
+}
+
+#surname-button {
+  font-size: 1.5em;
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+#surname-button:hover {
+  background-color: #0056b3; 
+}
